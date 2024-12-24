@@ -5,7 +5,7 @@
   "scripts": {
     "start": "nodemon --inspect src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "sass --watch src/resources/scss/ -o src/public/css/"
+    "watch": "sass --watch src/resources/scss:src/public/css"
   },
   "author": "",
   "license": "ISC",
